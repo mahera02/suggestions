@@ -9,7 +9,7 @@ This project has 1 API to get suggestions
 Returns all suggestions based on city prefix 
 localhost:8080/suggestions?q={city_prefix}
 
-Time complexity: O(nLogn), n is the longest city, sorting adds the complexity.
+Time complexity: O(n), n is the longest city, sorting adds the complexity.
 Space complexity: O(nxm), m is the number of words in trie.
 ````
 Request
@@ -24,7 +24,7 @@ curl -X GET \
 Returns all suggestions with score based on city prefix and latitude-longitude
 localhost:8080/suggestions?q={city_prefix}&latitude=43.70011&longitude=-79.4163
 
-Time complexity: O(n), n is the longest city.
+Time complexity: O(nLogn), n is the longest city.
 Space complexity: O(nxm), m is the number of words in trie.
 ````
 Request
