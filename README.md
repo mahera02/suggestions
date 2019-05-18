@@ -75,7 +75,13 @@ Running via command line
 ```
 ![image](https://user-images.githubusercontent.com/18723463/57963760-78c5e080-78f7-11e9-9b9a-02bd377044bd.png)
 
-
+```
+Running as a Docker Image
+```
+ docker build -t auto-suggestions:1.0 .
+ 
+ docker run -p 8080:8080 auto-suggestions:1.0
+ 
 ```
 Test Cases and Code coverage
 ```
