@@ -1,0 +1,123 @@
+{
+	"id": "95e11dc1-01e7-bda2-3d3a-683b8a48c59d",
+	"name": "Auto-Suggestions",
+	"description": "",
+	"order": [
+		"434489f5-e968-b6d5-5792-7b7e5d5ae8c9",
+		"0f4130eb-9191-c3b9-2a8a-2cc9897109ff",
+		"93f9f98c-3a45-3b10-ace4-2aa91d879929"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1558148773327,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0f4130eb-9191-c3b9-2a8a-2cc9897109ff",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/suggestions?q=Hogward",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "Hogward",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558148863129,
+			"name": "GET suggestions based on city and longitude-latitude NO RESULT",
+			"description": "",
+			"collectionId": "95e11dc1-01e7-bda2-3d3a-683b8a48c59d",
+			"responses": []
+		},
+		{
+			"id": "434489f5-e968-b6d5-5792-7b7e5d5ae8c9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/suggestions?q=Chicago&latitude=43.70011&longitude=-79.4163",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "Chicago",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "43.70011",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "-79.4163",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "95e11dc1-01e7-bda2-3d3a-683b8a48c59d",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET suggestions based on city and longitude-latitude",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1558148797366,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "93f9f98c-3a45-3b10-ace4-2aa91d879929",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/suggestions?q=Mon",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "Mon",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "95e11dc1-01e7-bda2-3d3a-683b8a48c59d",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET suggestions based on city No score",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1558148884720,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
